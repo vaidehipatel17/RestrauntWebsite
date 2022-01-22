@@ -1,0 +1,133 @@
+body{
+    box-sizing: border-box;
+    font-family: 'lora', serif;
+    background-color: rgb(250, 248, 241) ;
+}
+/* navigation */
+header{
+    line-height: 40px;
+    background-color: rgb(250, 248, 241);
+    font-family: 'Lora', serif;
+}
+
+.nav{
+    align-items: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+ul{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+  
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    padding: 30px;
+}
+
+.button{
+    border-radius: 8px;
+    background-color: #865439;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button:hover{
+    background-color: #8a6c5b;
+}
+
+/* backgrount cover img */
+
+.container-1{
+    background: url(img1.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+/* menu css */
+
+.menu-sec{
+    font-family: 'lora', serif;
+    background-color: rgb(250, 248, 241);
+    padding: 20px;
+}
+
+.text{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.img img{
+    height: 800px;
+    width: 600px;
+    padding: 20px;
+}
+
+/* about section */
+
+.container-2{
+    background: url(img2.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.sub-container{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(250, 248, 241);
+    text-align: center;
+    line-height: 2;
+    font-family: 'lora',serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.container-3{
+    text-align: center;
+    background-color: rgb(250, 248, 241);
+    font-family: 'lora',serif;
+    margin: auto;
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+
+hr{
+    background-color: white;
+}
+
+.contant{
+    text-align: center;
+}
+

@@ -1,0 +1,121 @@
+body{
+    box-sizing: border-box;
+    font-family: 'lora', serif;
+    background-color: rgb(250, 248, 241) ;
+}
+/* navigation */
+header{
+    line-height: 40px;
+    background-color: rgb(250, 248, 241);
+    font-family: 'Lora', serif;
+}
+
+.nav{
+    align-items: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+ul{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+  
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    padding: 30px;
+}
+
+.button{
+    border-radius: 8px;
+    background-color: #865439;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button:hover{
+    background-color: #8a6c5b;
+}
+
+/* reservatioon form css */
+
+.form{
+    background-image: url(reservation.jpg) ;
+    font-family: 'lora',serif;
+    text-align: center;
+}
+
+.color{
+    background-color:rgb(250, 248, 241);
+    border: 1px solid black;
+}
+
+
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+  
+input[type=submit] {
+    background-color: #8a6c5b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #887266;
+}
+  
+div {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+
+hr{
+    background-color: white;
+}
+
+.contant{
+    text-align: center;
+}
+
